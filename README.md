@@ -95,12 +95,3 @@ The application is intended to be deployed on Vercel.
 
 **Live Demo:** Add deployment URL here.
 
-## Author
-
-Developed by **YOUR NAME**.
-
-**GitHub:** https://github.com/YOUR_USERNAME
-
-## License
-
-This project was developed for educational purposes.
