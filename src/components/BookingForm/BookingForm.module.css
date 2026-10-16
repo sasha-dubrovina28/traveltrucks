@@ -1,0 +1,116 @@
+.form {
+    --error: #e5484d;
+    --error-bg: #ffe0e0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 44px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--white);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.text {
+    font-size: 16px;
+    color: var(--muted);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.control {
+    position: relative;
+    display: block;
+}
+
+.input,
+.inputError {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: var(--bg-card);
+    font: inherit;
+    font-size: 14px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input::placeholder,
+.inputError::placeholder {
+    color: var(--muted);
+}
+
+.input:focus {
+    border-color: var(--main);
+}
+
+.inputError {
+    padding-right: 44px;
+    border-color: var(--error);
+    background: var(--error-bg);
+}
+.floating {
+    position: absolute;
+    top: -7px;
+    left: 12px;
+    z-index: 1;
+    padding: 0 4px;
+    background: var(--error-bg);
+    font-size: 10px;
+    line-height: 1;
+    color: var(--error);
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: var(--error);
+}
+
+.error {
+    font-size: 12px;
+    color: var(--error);
+}
+
+.button {
+    padding: 16px;
+    border: none;
+    border-radius: 200px;
+    background: var(--main);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.button:hover:not(:disabled) {
+    background: var(--main-hover);
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: default;
+}

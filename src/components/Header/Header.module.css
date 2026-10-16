@@ -1,0 +1,36 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    height: 72px;
+    padding: 0 max(64px, calc((100% - 1312px) / 2));
+    background: var(--bg-card);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo b {
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav a {
+    transition: color 0.2s;
+}
+
+.nav a:hover {
+    color: var(--main);
+}
+
+.active {
+    color: var(--muted);
+}

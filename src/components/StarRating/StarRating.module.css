@@ -1,0 +1,19 @@
+.rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.star {
+    width: 16px;
+    height: 16px;
+    color: #dadde2;
+}
+
+.filled {
+    color: #ffc531;
+}
+
+.empty {
+    color: #dadde2;
+}

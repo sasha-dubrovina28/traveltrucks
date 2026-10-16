@@ -1,0 +1,43 @@
+:root {
+    --main: #829b91;
+    --main-hover: #6d7b75;
+    --input-bg: #f2f4f7;
+    --bg-card: #f7f7f7;
+    --star: #ffc531;
+    --muted: #6c717b;
+    --text-secondary: #475467;
+    --text: #101828;
+    --border: #dadde1;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.4;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

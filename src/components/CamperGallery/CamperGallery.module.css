@@ -1,0 +1,34 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 638px;
+    min-width: 0;
+}
+
+.main,
+.thumbs {
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 505px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.thumb {
+    display: block;
+    width: 100%;
+    height: 144px;
+    border: 3px solid transparent;
+    border-radius: 16px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbs :global(.swiper-slide-thumb-active) .thumb {
+    border-color: var(--main);
+}
