@@ -93,5 +93,5 @@ https://campers-api.goit.study/docs
 
 The application is intended to be deployed on Vercel.
 
-**Live Demo:** Add deployment URL here.
+**Live Demo:** (https://traveltrucks-sasha11.vercel.app/)
 
